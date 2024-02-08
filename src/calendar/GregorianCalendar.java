@@ -41,7 +41,7 @@ class GregorianCalendar extends CalendarClass{
 	public void dateOfMonthInGoregorian(){
 		dayconstant =dayConstant();
 		constant=(5*year/4+3)%7;
-		start = (2*month + 1+ constant +dayconstant)%7;
+		start = (2*month + constant +dayconstant)%7;
 		if(month==4||month==6||month==9||month==11)
 			last = 30;
 		else if(month==2&&year%4==0)
