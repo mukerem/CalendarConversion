@@ -1,6 +1,5 @@
 package calendar;
 
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -61,7 +60,7 @@ public class GregorianToHabesha extends CalendarClass{
 	
 	  //***** calculate the Habesha date
 	 public int[] gregorianToHabeshaCalculate(int []array){
-	 	GregoriaCalendar  gregorian = new GregoriaCalendar(); 
+	 	GregorianCalendar  gregorian = new GregorianCalendar(); 
 	   	date =array[0];month=array[1];year=array[2];
 	   	dayconstant = gregorian.dayConstant();
    		

@@ -1,6 +1,6 @@
 package calendar;
 
-class GregoriaCalendar extends CalendarClass{
+class GregorianCalendar extends CalendarClass{
 	int last=0,lastdate=0 , dayconstantofyear ,j;
 		  
      public void gregorianCalander() {

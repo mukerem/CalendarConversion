@@ -80,7 +80,7 @@ public class SearchDateInGregorian extends CalendarClass {
 		JButton btnShowDay = new JButton("Show :");
 	   	btnShowDay.addActionListener(new ActionListener() {
 	 	public void actionPerformed(ActionEvent e) {
-			GregoriaCalendar gre = new GregoriaCalendar();
+			GregorianCalendar gre = new GregorianCalendar();
 	   		dayconstant = gre.dayConstant();
 	   		date=comboBox_1.getSelectedIndex()+1;
 	 		month=comboBox_2.getSelectedIndex()+1;
